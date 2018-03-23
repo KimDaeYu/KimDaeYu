@@ -1,5 +1,45 @@
 <!DOCTYPE html>
 <html>      
+    <style>
+    header{
+        background-color: plum;
+        color : aliceblue;
+        padding: 1px;
+    }
+    nav{
+        text-align: center;
+        background-color: aquamarine
+    }
+    aside{
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        float: right;
+        background-color: bisque;
+        text-align: left;
+        
+    }
+    section{
+        padding: 5px;
+        background-color: wheat;
+        color : rgb(156, 55, 55);
+        text-align: left;
+    }
+    section section{
+        background-color: wheat;
+        text-align: center;
+    }
+    section section section{
+        background-color: wheat;
+        text-align: right;
+    }
+    footer{
+        padding: 0.5em;
+                color: white;
+                background-color: rgb(49, 195, 253);
+                text-align: center;
+    }
+    </style>
     <head>
         <meta charset="UTF-8">
         <title>KimDaeYu Home</title>
@@ -10,14 +50,59 @@
             <h2>Programmer + ai_developer</h2>
         </header>
         <nav> HOME | AI | CV | C++ |  HTML | JAVA</nav>
-        <aside><h2>Reference</h2></aside>
+        <aside><h2>Reference</h2>
+            <form action="">
+                    <input type="text"name="weather" placeholder="검색하세요" size="20">
+                    <input type="submit" value="검색">
+            </form>
+            
+            <hr>
+            <ul>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>PYTHON</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                
+            </ul>
+            <hr>
+            <b>GOOGLE</b>
+            <form action="">
+                    <input type="text"name="weather" placeholder="검색하세요" size="20">
+                    <input type="submit" value="검색">
+            </form>
+            <br>
+            <b>DAUM</b>
+            <form action="">
+                    <input type="text"name="weather" placeholder="검색하세요" size="20">
+                    <input type="submit" value="검색">
+            </form>
+            <br><br><br>
+            <br><br><br>
+            
+
+        </aside>
+        
         <section><h2>Photos</h2>
             <img src="https://www.sktinsight.com/wp-content/uploads/2017/07/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5_%EC%9D%BC%EC%9E%90%EB%A6%AC_%ED%8A%B8%EB%A0%8C%EB%93%9C_04.png" alt = "AI" width="100" height="100">
+            <b>인공지능</b>
             <img src="https://cdn-images-1.medium.com/max/2000/1*BVRUFyXUpfPJegOvG-ItPw.png" alt = "CV"width="100" height="100">
+            <b>컴퓨터비젼</b>
             <br>
-            <img src="https://png.icons8.com/color/1600/c-plus-plus-logo.png" alt = "C++"width="100" height="100">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt = "HTML"width="100" height="100">
+            <section>
+                <img src="https://png.icons8.com/color/1600/c-plus-plus-logo.png" alt = "C++"width="100" height="100">
+                <b>C++</b>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt = "HTML"width="100" height="100">
+                <b>HTML</b>
+                <section>
+                    <img src="http://cfile1.uf.tistory.com/image/99C7863359B56D1043544B" alt = "C++"width="130" height="100">
+                    <b>자바</b>
+                    <img src="http://www.creartbot.com/files/attach/images/210/659/6242eae8c6c43c8bf44f744a76d93783.png" alt = "HTML"width="100" height="100">
+                    <b>파이썬</b>
+            </section>
+            
         </section>
+
         <footer>Copyright @DAEYU KIM</footer>
     </body>
 
