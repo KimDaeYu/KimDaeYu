@@ -1,0 +1,40 @@
+@charset "utf-8";
+header{
+    background-color: plum;
+    color : aliceblue;
+    padding: 1px;
+}
+nav{
+    text-align: center;
+    background-color: aquamarine
+}
+aside{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    float: right;
+    background-color: bisque;
+    text-align: left;
+    
+}
+section{
+    padding: 5px;
+    background-color: wheat;
+    color : rgb(156, 55, 55);
+    text-align: left;
+}
+section section{
+    background-color: wheat;
+    text-align: center;
+}
+section section section{
+    background-color: wheat;
+    text-align: right;
+}
+footer{
+    padding: 0.5em;
+    color: white;
+    background-color: rgb(49, 195, 253);
+    text-align: center;
+    
+}
